@@ -1,0 +1,148 @@
+{
+ "slug": "glosik",
+ "zdroj_url": "https://glosik.sk",
+ "firma": "Kúpeľňové štúdio Glosík",
+ "obor": [
+  "e-shop / obchod",
+  "stavebnictví a řemesla"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [],
+  "telefony": [],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/K%C3%BApe%C4%BE%C5%88ov%C3%A9-%C5%A1t%C3%BAdio-Glos%C3%ADk-100263578856576",
+   "https://www.instagram.com/p/CNat4KiLP4L/?igshid=749nnc6ly4bb"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://glosik.sk/sites/default/files/glosik-logo_0.png",
+  "rozmery": [
+   731,
+   731
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [],
+  "z_loga": [
+   "#fef200"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#fef200"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/intro/public/light_grey_living.jpg?itok=0tGXTMUy",
+   "sirka": 1920,
+   "vyska": 600,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/intro/public/eccentrico_multiforma_quadra_e_linea.jpg?itok=k4N773gD",
+   "sirka": 1920,
+   "vyska": 600,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/gal_ria_front/public/field/image/navrh-kupelne-rd-bratislava_0.jpg?itok=eAFv092b",
+   "sirka": 1200,
+   "vyska": 860,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/uvod_povedali_o_nas_foto/public/plant_rope_75x150_amb_0.jpg?itok=5ThHa_Hx",
+   "sirka": 499,
+   "vyska": 350,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/uvod_povedali_o_nas_foto/public/amb.trail_chrono_15x75_0.jpg?itok=_7UpnGoa",
+   "sirka": 499,
+   "vyska": 350,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-06.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/uvod_povedali_o_nas_foto/public/amb_tune_lava-60x120_lava-mosaico-30x30_0.jpg?itok=zwPD98UC",
+   "sirka": 499,
+   "vyska": 350,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-07.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/uvod_povedali_o_nas_foto/public/reveal_grey_115x23_grey_120x270_120x120_0.jpg?itok=jtJjwfMb",
+   "sirka": 499,
+   "vyska": 350,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-08.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/uvod_povedali_o_nas_foto/public/grey_120x270_jade_60x120_2_0.jpg?itok=Hgi3Tqla",
+   "sirka": 499,
+   "vyska": 350,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-09.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/uvod_povedali_o_nas_foto/public/amb_gaja_smoke-60x60_grey-30x60_0.jpg?itok=8H4yEHib",
+   "sirka": 499,
+   "vyska": 350,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-10.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/uvod_povedali_o_nas_foto/public/amb_prestigio_pulpis_lucido_75x150_0.jpg?itok=kM1YAaH7",
+   "sirka": 499,
+   "vyska": 350,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-11.jpg",
+   "url": "https://glosik.sk/sites/default/files/styles/uvod_povedali_o_nas_foto/public/foil_verdigris_120x120_60x120_aluminium_60x120_burnish_120x278_0.jpg?itok=KtQlLvWF",
+   "sirka": 499,
+   "vyska": 350,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Vitajte na GLOSIK - Predajca talianskej keramiky",
+   "zdroj": "https://glosik.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "GALÉRIA",
+   "zdroj": "https://glosik.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "ZÁKAZNÍCKY SERVIS",
+   "zdroj": "https://glosik.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "INFORMÁCIE",
+   "zdroj": "https://glosik.sk/"
+  }
+ ],
+ "chybi": [
+  "e-mail",
+  "telefon (do webu, ne do mailů)",
+  "IČO",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Skvelá práca s obkladom, dlažbou a prírodným kameňom. Sme špecialisti na montáž a izolácie kúpeľní, terás a bazénov."
+}

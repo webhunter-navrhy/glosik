@@ -1,0 +1,95 @@
+{% extends "_base.html" %}
+{% set titulek = 'Obklady a dlažby, izolácie kúpeľní a bazénov | ' ~ site.nazev %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitok">Kostolná Záriečie pri Trenčíne</p>
+      <h1>Talianska keramika, ktorú nielen predáme, ale aj položíme.</h1>
+      <p class="uvod">Rodinná firma s dlhoročnou praxou v Taliansku, Rakúsku a na Slovensku. Obklady, dlažby, izolácie kúpeľní, terás a bazénov, riešenia na mieru.</p>
+      <div class="akcie">
+        <a class="tlacitko zlta" href="{{ site.eshop }}">Nakupovať v e-shope</a>
+        <a class="tlacitko linka" href="#kontakt">Dopyt na kúpeľňu</a>
+      </div>
+    </div>
+    <div class="hero-foto">
+      {{ img('obyvacka.jpg', 'Obývacia izba s veľkoformátovou lesklou dlažbou', sizes='(min-width: 60rem) 48rem, 100vw') }}
+    </div>
+  </div>
+</section>
+
+<section class="formaty" aria-label="Ukážky formátov">
+  <div class="wrap">
+    <p class="stitok">Formáty z našich inšpirácií</p>
+    <ul role="list" class="vzornik">
+      <li style="--w:60;--h:60"><span>60×60</span></li>
+      <li style="--w:60;--h:120"><span>60×120</span></li>
+      <li style="--w:75;--h:150" class="zlta"><span>75×150</span></li>
+      <li style="--w:120;--h:270"><span>120×270</span></li>
+    </ul>
+    <p class="poznamka">Rozmery v cm. Ukážky veľkostí z realizácií v galérii.</p>
+  </div>
+</section>
+
+<section class="sekce" id="o-nas">
+  <div class="wrap dva">
+    <h2>Rodinná firma, ktorá začala v Taliansku</h2>
+    <div class="text">
+      <p>Od roku 2009 pracujeme s keramikou v Taliansku. Firma Glosík s.r.o. vznikla v roku 2014 a našu prácu si pochvaľovali v Rakúsku aj v Taliansku. Od roku 2018 ponúkame skúsenosti aj na Slovensku.</p>
+      <p>V roku 2020 sme na okraji Trenčína otvorili kúpeľňové štúdio. Špecializujeme sa na kladenie obkladov a dlažieb všetkých formátov, hydroizoláciu kúpeľní, terás a bazénov, lemovanie bazénov a dlažbu terás. Každé riešenie robíme na mieru.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce tmava" id="sluzby">
+  <div class="wrap">
+    <h2>Služby</h2>
+    <ul role="list" class="sluzby">
+      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce" id="galeria">
+  <div class="wrap">
+    <h2>Inšpirácie</h2>
+    <div class="mozaika">
+      {{ img('kupelna.jpg', 'Kúpeľňa s tmavou dlažbou a obkladom', sizes='(min-width: 60rem) 24rem, 50vw', cls='m1') }}
+      {{ img('bazen.jpg', 'Bazén s lemovaním a terasou', sizes='(min-width: 60rem) 36rem, 100vw', cls='m2') }}
+      {{ img('kuchyna.jpg', 'Kuchyňa s keramickým obkladom', sizes='(min-width: 60rem) 24rem, 50vw', cls='m3') }}
+      {{ img('wellness.jpg', 'Wellness s drevodekorom', sizes='(min-width: 60rem) 24rem, 50vw', cls='m4') }}
+      {{ img('terasa.jpg', 'Terasa s veľkoformátovou dlažbou', sizes='(min-width: 60rem) 36rem, 100vw', cls='m5') }}
+      {{ img('schodisko.jpg', 'Schodisko s dekoratívnou dlažbou', sizes='(min-width: 60rem) 24rem, 50vw', cls='m6') }}
+    </div>
+    <p class="poznamka">Fotografie z galérie glosik.sk.</p>
+  </div>
+</section>
+
+<section class="eshop-pas">
+  <div class="wrap">
+    <div>
+      <h2>Dlažby a obklady v e-shope</h2>
+      <p>Vyberte si z ponuky talianskej keramiky v našom e-shope.</p>
+    </div>
+    <a class="tlacitko cierna" href="{{ site.eshop }}">Prejsť do e-shopu</a>
+  </div>
+</section>
+
+<section class="sekce" id="kontakt">
+  <div class="wrap dva">
+    <div>
+      <h2>Kontakt</h2>
+      <address>
+        <p><strong>{{ site.nazev }}</strong><br>{{ site.kontakt.adresa.ulice }}<br>{{ site.kontakt.adresa.psc }} {{ site.kontakt.adresa.mesto }}</p>
+        <p>Po–Pi 8:00–17:00</p>
+        <p><a href="tel:{{ site.kontakt.telefon|replace(' ', '')|replace('/', '') }}">{{ site.kontakt.telefon }}</a><br>
+        <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+        <p class="poznamka">Objednávky a rezanie dlažieb: <a href="mailto:objednavky@glosik.sk">objednavky@glosik.sk</a><br>Reklamácie: <a href="mailto:reklamacie@glosik.sk">reklamacie@glosik.sk</a></p>
+        <p class="poznamka">Glosík s.r.o., IČO {{ site.ico }}, IČ DPH SK2023716794</p>
+      </address>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

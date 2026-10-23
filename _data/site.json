@@ -1,0 +1,60 @@
+{
+  "slug": "glosik",
+  "nazev": "Kúpeľňové štúdio Glosík",
+  "url": "https://webhunter-navrhy.github.io/glosik/",
+  "base": "/glosik/",
+  "lang": "sk",
+  "popis": "Taliansku keramiku, obklady a dlažby vám predáme aj položíme. Izolácie kúpeľní, terás a bazénov, lemovanie bazénov. Kostolná Záriečie pri Trenčíne.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "obyvacka.jpg",
+  "logo": "logo.png",
+  "theme_color": "#f2efe9",
+  "typ": "LocalBusiness",
+  "ico": "47051337",
+  "kontakt": {
+    "email": "info@glosik.sk",
+    "telefon": "032/20 23 533",
+    "adresa": {
+      "ulice": "Kostolná Záriečie 533",
+      "psc": "913 04",
+      "mesto": "Kostolná Záriečie",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [
+    {
+      "dny": "Po–Pi",
+      "od": "08:00",
+      "do": "17:00"
+    }
+  ],
+  "sameas": [
+    "https://www.facebook.com/K%C3%BApe%C4%BE%C5%88ov%C3%A9-%C5%A1t%C3%BAdio-Glos%C3%ADk-100263578856576"
+  ],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Dopyt z webu glosik.sk"
+  },
+  "nav": [
+    {
+      "text": "O nás",
+      "href": "#o-nas"
+    },
+    {
+      "text": "Služby",
+      "href": "#sluzby"
+    },
+    {
+      "text": "Inšpirácie",
+      "href": "#galeria"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ],
+  "eshop": "https://glosik.sk/eshop/"
+}
