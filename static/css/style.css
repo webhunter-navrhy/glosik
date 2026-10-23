@@ -1,6 +1,6 @@
 /* Neutrální základ. ŽÁDNÝ design: barvy, fonty a layout vymysli pro konkrétního klienta. */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-behavior: smooth; overflow-x: clip; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; overflow-x: clip; }
 body { margin: 0; overflow-x: clip; }
 img, picture, video, svg { display: block; max-width: 100%; height: auto; }
 input, button, textarea, select { font: inherit; color: inherit; }
@@ -159,6 +159,6 @@ address a { text-underline-offset: 3px; }
 }
 /* rytmus: max 120 px PC / 80 px mobil mezi sekcemi, kompaktnější hero a pás formátů */
 .sekce { padding-block: 2.5rem; }
-@media (min-width: 48rem) { .sekce { padding-block: 3.75rem; } .hero { padding-block: 2rem 2.5rem; } .vzornik { max-width: 34rem; } .hero-foto img { aspect-ratio: 3/2; } }
+@media (min-width: 48rem) { .sekce { padding-block: 3.75rem; } .hero { padding-block: 2rem 2.5rem; } .vzornik { max-width: none; justify-content: space-between; } .hero-foto img { aspect-ratio: 3/2; } }
 .sekce > .wrap > h2, .sekce h2 { margin-bottom: var(--space-3); }
 .hlavicka { transform: none; }
