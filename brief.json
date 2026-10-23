@@ -6,16 +6,23 @@
   "e-shop / obchod",
   "stavebnictví a řemesla"
  ],
- "ico": "",
+ "ico": "47051337",
  "ares": null,
  "kontakty": {
-  "emaily": [],
-  "telefony": [],
-  "adresa": "",
+  "emaily": [
+   "info@glosik.sk",
+   "objednavky@glosik.sk",
+   "reklamacie@glosik.sk"
+  ],
+  "telefony": [
+   "032/20 23 533"
+  ],
+  "adresa": "Kostolná Záriečie 533, 913 04 Kostolná Záriečie",
   "socialni_site": [
    "https://www.facebook.com/K%C3%BApe%C4%BE%C5%88ov%C3%A9-%C5%A1t%C3%BAdio-Glos%C3%ADk-100263578856576",
    "https://www.instagram.com/p/CNat4KiLP4L/?igshid=749nnc6ly4bb"
-  ]
+  ],
+  "oteviraci_doba": "Po–Pi 8:00–17:00"
  },
  "logo": {
   "soubor": "podklady/logo.png",
@@ -144,5 +151,6 @@
   "adresa / provozovna",
   "potvrzení služeb a ceníku (nic nevymýšlet)"
  ],
- "popis_webu": "Skvelá práca s obkladom, dlažbou a prírodným kameňom. Sme špecialisti na montáž a izolácie kúpeľní, terás a bazénov."
+ "popis_webu": "Skvelá práca s obkladom, dlažbou a prírodným kameňom. Sme špecialisti na montáž a izolácie kúpeľní, terás a bazénov.",
+ "zdroj_kontaktu": "glosik.sk/kontakt a glosik.sk/o-nas (ručne overené 23.10.2026): IČO 47051337, IČ DPH SK2023716794, história 2009/2014/2018/2020 a Rakúsko/Taliansko z /o-nas"
 }

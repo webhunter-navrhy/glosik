@@ -1,14 +1,20 @@
 [
   {
     "nazev": "Komplexné služby s obkladmi a dlažbami",
-    "popis": "Poradenstvo, vizualizácia a realizácia. Predávame talianske keramické obklady a dlažby, stavebnú chémiu, sanitu aj s montážou a zabezpečíme dopravu tovaru."
+    "popis": "Poradenstvo, vizualizácia a realizácia. Predávame talianske keramické obklady a dlažby, stavebnú chémiu, sanitu aj s montážou a zabezpečíme dopravu tovaru.",
+    "foto": "hala.jpg",
+    "alt": "Hala so sivou veľkoformátovou dlažbou"
   },
   {
     "nazev": "Izolatérske práce",
-    "popis": "Hydroizolácia kúpeľní, terás a bazénov. Poradíme, navrhneme, predáme materiál a prácu urobíme."
+    "popis": "Hydroizolácia kúpeľní, terás a bazénov. Poradíme, navrhneme, predáme materiál a prácu urobíme.",
+    "foto": "bagno.jpg",
+    "alt": "Kúpeľňa so sprchovým kútom a obkladom"
   },
   {
     "nazev": "Lemovanie bazénov",
-    "popis": "Bazénové lemy a dokončenie okolia bazénu. Poradenstvo, návrh, predaj aj realizácia."
+    "popis": "Bazénové lemy a dokončenie okolia bazénu. Poradenstvo, návrh, predaj aj realizácia.",
+    "foto": "bazen.jpg",
+    "alt": "Bazén s lemovaním a terasou"
   }
 ]

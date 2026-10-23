@@ -21,14 +21,13 @@
 
 <section class="formaty" aria-label="Ukážky formátov">
   <div class="wrap">
-    <p class="stitok">Formáty z našich inšpirácií</p>
+    <p class="stitok">Formáty z našich inšpirácií (rozmery v cm)</p>
     <ul role="list" class="vzornik">
-      <li style="--w:60;--h:60"><span>60×60</span></li>
-      <li style="--w:60;--h:120"><span>60×120</span></li>
-      <li style="--w:75;--h:150" class="zlta"><span>75×150</span></li>
-      <li style="--w:120;--h:270"><span>120×270</span></li>
+      <li style="--w:60;--h:60">{{ img('f1.jpg', 'Dlažba formátu 60×60 cm', sizes='(min-width: 60rem) 18rem, 25vw') }}<span>60×60</span></li>
+      <li style="--w:60;--h:120">{{ img('f2.jpg', 'Obklad formátu 60×120 cm', sizes='(min-width: 60rem) 12rem, 25vw') }}<span>60×120</span></li>
+      <li style="--w:75;--h:150">{{ img('f3.jpg', 'Dlažba formátu 75×150 cm', sizes='(min-width: 60rem) 12rem, 25vw') }}<span>75×150</span></li>
+      <li style="--w:120;--h:270">{{ img('f4.jpg', 'Veľkoformátová doska 120×270 cm', sizes='(min-width: 60rem) 10rem, 25vw') }}<span>120×270</span></li>
     </ul>
-    <p class="poznamka">Rozmery v cm. Ukážky veľkostí z realizácií v galérii.</p>
   </div>
 </section>
 
@@ -42,11 +41,11 @@
   </div>
 </section>
 
-<section class="sekce tmava" id="sluzby">
+<section class="sekce" id="sluzby">
   <div class="wrap">
     <h2>Služby</h2>
     <ul role="list" class="sluzby">
-      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+      {% for s in data.sluzby %}<li>{{ img(s.foto, s.alt, sizes='(min-width: 60rem) 24rem, 100vw') }}<h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
     </ul>
   </div>
 </section>
@@ -56,10 +55,10 @@
     <h2>Inšpirácie</h2>
     <div class="mozaika">
       {{ img('kupelna.jpg', 'Kúpeľňa s tmavou dlažbou a obkladom', sizes='(min-width: 60rem) 24rem, 50vw', cls='m1') }}
-      {{ img('bazen.jpg', 'Bazén s lemovaním a terasou', sizes='(min-width: 60rem) 36rem, 100vw', cls='m2') }}
+      {{ img('terasa.jpg', 'Terasa s veľkoformátovou dlažbou', sizes='(min-width: 60rem) 36rem, 100vw', cls='m2') }}
       {{ img('kuchyna.jpg', 'Kuchyňa s keramickým obkladom', sizes='(min-width: 60rem) 24rem, 50vw', cls='m3') }}
       {{ img('wellness.jpg', 'Wellness s drevodekorom', sizes='(min-width: 60rem) 24rem, 50vw', cls='m4') }}
-      {{ img('terasa.jpg', 'Terasa s veľkoformátovou dlažbou', sizes='(min-width: 60rem) 36rem, 100vw', cls='m5') }}
+      {{ img('dielna.jpg', 'Interiér so sivou dlažbou', sizes='(min-width: 60rem) 36rem, 100vw', cls='m5') }}
       {{ img('schodisko.jpg', 'Schodisko s dekoratívnou dlažbou', sizes='(min-width: 60rem) 24rem, 50vw', cls='m6') }}
     </div>
     <p class="poznamka">Fotografie z galérie glosik.sk.</p>

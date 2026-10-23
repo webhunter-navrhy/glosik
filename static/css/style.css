@@ -106,19 +106,21 @@ h3 { font-family: var(--font-body); font-weight: 600; font-size: var(--step-1); 
 @media (min-width: 60rem) { .hero-grid { grid-template-columns: 1fr 1.1fr; } .hero-foto img { aspect-ratio: 5/4; } }
 
 .formaty { padding-block: var(--space-4); border-block: 1px solid var(--line); }
-.vzornik { display: flex; align-items: flex-end; gap: clamp(0.75rem, 3vw, 2rem); flex-wrap: wrap; }
-.vzornik li { width: calc(var(--w) * 0.9px + 0.5rem); aspect-ratio: var(--w) / var(--h); background: #d9d3c6; display: flex; align-items: flex-end; padding: 0.4rem; font-size: var(--step--1); font-weight: 600; min-width: 4.5rem; }
-.vzornik li.zlta { background: var(--zlta); }
-.vzornik li:nth-child(4) { width: clamp(5rem, 14vw, 9rem); }
+.vzornik { display: flex; align-items: flex-start; gap: clamp(0.5rem, 2vw, 1rem); }
+.vzornik li { flex: calc(var(--w) / var(--h)) 1 0; min-width: 0; display: grid; gap: 0.4rem; }
+.vzornik picture { display: block; aspect-ratio: var(--w) / var(--h); background: #d9d3c6; }
+.vzornik img { width: 100%; height: 100%; object-fit: cover; }
+.vzornik span { font-size: var(--step--1); font-weight: 600; }
+.vzornik li:nth-child(3) span { background: var(--zlta); justify-self: start; padding: 0 0.4rem; }
 
 .dva { display: grid; gap: var(--space-4); }
 @media (min-width: 60rem) { .dva { grid-template-columns: 1fr 1fr; gap: var(--space-5); } }
 .dva .text { display: grid; gap: var(--space-2); max-width: 36rem; }
-.tmava { background: #171715; color: #f2efe9; }
-.tmava h2 { margin-bottom: var(--space-4); }
+#sluzby h2 { margin-bottom: var(--space-4); }
 .sluzby { display: grid; gap: var(--space-4); }
 .sluzby li { border-top: 3px solid var(--zlta); padding-top: var(--space-2); display: grid; gap: var(--space-1); align-content: start; }
-.sluzby p { color: #cfcac0; }
+.sluzby img { width: 100%; aspect-ratio: 4/3; object-fit: cover; margin-bottom: var(--space-1); }
+.sluzby p { color: var(--muted); }
 @media (min-width: 60rem) { .sluzby { grid-template-columns: repeat(3, 1fr); } }
 
 .mozaika { display: grid; gap: 0.75rem; margin-top: var(--space-4); grid-template-columns: repeat(2, 1fr); }
@@ -148,3 +150,4 @@ address a { text-underline-offset: 3px; }
   .hlavicka nav { order: 3; flex-basis: 100%; margin-left: 0; }
 }
 .mozaika { grid-auto-flow: dense; }
+@media (max-width: 59.99rem) { .hero-foto { order: -1; } .hero { padding-top: var(--space-3); } .hlavicka .logo img { width: 44px; height: 44px; } }
