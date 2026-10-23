@@ -147,3 +147,4 @@ address a { text-underline-offset: 3px; }
   .hlavicka .eshop { order: 2; margin-left: auto; }
   .hlavicka nav { order: 3; flex-basis: 100%; margin-left: 0; }
 }
+.mozaika { grid-auto-flow: dense; }
