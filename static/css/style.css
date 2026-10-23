@@ -108,7 +108,7 @@ h3 { font-family: var(--font-body); font-weight: 600; font-size: var(--step-1); 
 .formaty { padding-block: var(--space-4); border-block: 1px solid var(--line); }
 .vzornik { display: flex; align-items: flex-end; max-width: 46rem; gap: clamp(0.5rem, 2vw, 1rem); }
 .vzornik li { flex: calc(var(--w) / var(--h)) 1 0; min-width: 0; display: grid; gap: 0.4rem; }
-.vzornik picture { display: block; position: relative; aspect-ratio: var(--w) / var(--h); background: #d9d3c6; }
+.vzornik .dl { display: block; position: relative; aspect-ratio: var(--w) / var(--h); background: #d9d3c6; }
 .vzornik img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .vzornik span { font-size: var(--step--1); font-weight: 600; }
 .vzornik li:nth-child(3) span { background: var(--zlta); justify-self: start; padding: 0 0.4rem; }
@@ -155,5 +155,5 @@ address a { text-underline-offset: 3px; }
 @media (max-width: 47.99rem) {
   .vzornik { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: none; align-items: end; }
   .vzornik li { flex: none; }
-  .vzornik li:nth-child(2) picture, .vzornik li:nth-child(3) picture, .vzornik li:nth-child(4) picture { width: 70%; }
+  .vzornik li:nth-child(2) .dl, .vzornik li:nth-child(3) .dl, .vzornik li:nth-child(4) .dl { width: 70%; }
 }
