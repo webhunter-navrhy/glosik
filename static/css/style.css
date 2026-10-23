@@ -162,3 +162,4 @@ address a { text-underline-offset: 3px; }
 @media (min-width: 48rem) { .sekce { padding-block: 3.75rem; } .hero { padding-block: 2rem 2.5rem; } .vzornik { max-width: none; justify-content: space-between; } .hero-foto img { aspect-ratio: 3/2; } }
 .sekce > .wrap > h2, .sekce h2 { margin-bottom: var(--space-3); }
 .hlavicka { transform: none; }
+@media (min-width: 60rem) { .hero { padding-block: 1.5rem 1.25rem; } .formaty { padding-block: 1.5rem; } .vzornik { max-width: 36rem; justify-content: flex-start; } #o-nas, .formaty { scroll-margin-top: 5.5rem; } }
