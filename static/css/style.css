@@ -140,3 +140,10 @@ address a { text-underline-offset: 3px; }
 .formular label { font-weight: 600; }
 .paticka { border-top: 1px solid var(--line); padding-block: var(--space-4); color: var(--muted); font-size: var(--step--1); }
 .paticka .wrap { display: grid; gap: 0.25rem; }
+.mozaika picture { display: contents; }
+@media (max-width: 47.99rem) {
+  .hlavicka { position: static; }
+  .hlavicka .wrap { gap: 0.5rem var(--space-2); }
+  .hlavicka .eshop { order: 2; margin-left: auto; }
+  .hlavicka nav { order: 3; flex-basis: 100%; margin-left: 0; }
+}
